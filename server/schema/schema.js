@@ -4,9 +4,9 @@ const _ = require("lodash");
 //Dummy Data
 
 var books = [
-  { name: "Book 1", id: "1" },
-  { name: "Book 2", id: "2" },
-  { name: "Book 3", id: "3" },
+  { name: "Book 1", id: "1", genre: "Sci-Fi" },
+  { name: "Book 2", id: "2", genre: "Sci-Fi" },
+  { name: "Book 3", id: "3", genre: "Sci-Fi" },
 ];
 
 const BookType = new GraphQLObjectType({
